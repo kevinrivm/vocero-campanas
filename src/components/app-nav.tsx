@@ -11,6 +11,7 @@ import {
   Inbox,
   Kanban,
   LogOut,
+  Megaphone,
   Settings,
   Sparkles,
   Users,
@@ -42,6 +43,8 @@ const NAV: NavItem[] = [
   { href: "/inbox", label: "Bandeja", icon: Inbox, badge: true },
   { href: "/pipeline", label: "Pipeline", icon: Kanban },
   { href: "/contacts", label: "Contactos", icon: Users },
+  // Fork demo: campañas masivas (una plantilla a una lista en CSV).
+  { href: "/campaigns", label: "Campañas", icon: Megaphone },
   // 019 — Después de Contactos: primero se atiende y se organiza, luego se
   // mide. Antes de Agente y Laboratorio, que son configuración.
   { href: "/results", label: "Resultados", icon: ChartColumn },
